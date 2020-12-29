@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultado</title>
+</head>
+<body>
+  <center>
+  <h1>Resultado</h1>
+  <p>{{n_total}} pessoas únicas comentaram na foto</p>
+  <p>Os vencedores foram:</p>
+  {% for sorteado in p_sorteadas %}
+  <p>{{sorteado}}</p>
+  {% endfor %}
+  </center>
+  
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio</title>
+</head>
+<body>
+  <center>
+  <h1>Sorteio Instagram</h1>
+  <p>Insira abaixo a URL de uma postagem:</p>
+  
+  <form action="/result" method="get">
+  <input type="url" name="url" id="url" placeholder="Insira aqui a url de um post..." pattern="https://.*" size="30" required>
+  <p>Quantos vencedores você deseja:</p>
+  <input type="radio" id="1" name="winners" value="1"> <label for="1">1 vencedor</label>
+  <input type="radio" id="2" name="winners" value="2"> <label for="2">2 Vencedores</label>
+  <input type="radio" id="3" name="winners" value="3"> <label for="3">3 Vencedores</label>
+  <button>Selecionar vencedor</button>
+  </form>
+
+  </center>
+</body>
+</html>
